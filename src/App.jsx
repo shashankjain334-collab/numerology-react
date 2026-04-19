@@ -553,8 +553,8 @@ export default function App() {
       <section className="hero">
         <div className="top-brand-bar">
           <div className="brand-left">
-            <p className="company-name">BHAGYA SETU</p>
-            <p className="company-phone">{`${t.phoneLabel}: +91 98765 43210`}</p>
+            <p className="company-name">BHAGYA SETUP</p>
+            <p className="company-phone">{`${t.phoneLabel}: +91 9312123963`}</p>
           </div>
 
           <label className="toggle-container" htmlFor="langToggle">
