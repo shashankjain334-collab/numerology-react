@@ -6,16 +6,16 @@ import digitEffectsHi from "./digitEffects.hi.json";
 import { translations } from "./translations";
 
 const ROOT_COMPATIBILITY_MAP = {
-  "1": ["1", "5", "9"],
-  "2": ["2", "7"],
-  "3": ["3", "5", "6", "9"],
-  "4": ["4", "5", "6", "8"],
-  "5": ["1", "3", "5", "6"],
-  "6": ["3", "4", "5", "6", "8", "9"],
-  "7": ["2", "7", "9"],
-  "8": ["4", "6", "8"],
-  "9": ["1", "3", "6", "7", "9"],
-};
+      "1": ["1", "2", "3", "9"],
+      "2": ["1", "2", "3", "5"],
+      "3": ["1", "2", "3", "5", "6", "9"],
+      "4": ["4", "5", "6", "8"],
+      "5": ["1", "3", "5", "6"],
+      "6": ["3", "4", "5", "6", "8", "9"],
+      "7": ["2", "7", "9"],
+      "8": ["4", "6", "8"],
+      "9": ["1", "3", "6", "7", "9"]
+    };
 
 function onlyDigits(value) {
   return (value || "").replace(/\D/g, "");
@@ -441,8 +441,8 @@ export default function App() {
   <body>
     <main class="report">
       <header class="report-header">
-        <p class="brand">Bhagya Setu</p>
-        <p class="phone">${t.phoneLabel}: +91 98765 43210</p>
+        <p class="brand">Bhagya Setup</p>
+        <p class="phone">${t.phoneLabel}: +91 9312123963</p>
         <h1 class="report-title">${t.reportTitle}</h1>
         <p class="report-subtitle">${t.reportSubtitle}</p>
       </header>
